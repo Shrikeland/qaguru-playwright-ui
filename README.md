@@ -1,0 +1,2 @@
+# qaguru-playwright
+POM
