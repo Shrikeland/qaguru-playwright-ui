@@ -1,0 +1,17 @@
+{
+  "name": "qaguru-playwright",
+  "version": "1.0.0",
+  "description": "POM",
+  "main": "index.js",
+  "scripts": {
+    "debug": "npx playwright test --ui",
+    "test": "npx playwright test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^22.5.4"
+  }
+}
