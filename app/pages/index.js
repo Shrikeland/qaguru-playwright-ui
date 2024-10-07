@@ -1,3 +1,4 @@
+export * from "./AppPage";
 export * from "./MainPage";
 export * from "./RegisterPage";
 export * from "./SettingsPage";
