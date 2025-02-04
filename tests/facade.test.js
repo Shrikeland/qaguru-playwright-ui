@@ -7,7 +7,7 @@ let newUser;
 let expectedArticle;
 let app;
 
-test.describe.only("Page Object", () => {
+test.describe("Page Object", () => {
   test.beforeEach(async ({ page }) => {
     newUser = new UserBuilder()
       .addBio()
