@@ -13,7 +13,7 @@ const url = "https://realworld.qa.guru/#/";
 let newUser;
 let expectedArticle;
 
-test.describe.only("Page Object", () => {
+test.describe("Page Object", () => {
   test.beforeEach(async ({ page }) => {
     newUser = new UserBuilder()
       .addBio()
